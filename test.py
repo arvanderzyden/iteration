@@ -17,3 +17,7 @@ iterate(names)
 print_scores(names, scores)
 
 congratulations(names, scores)
+
+print sum(scores)
+
+print max(scores)
