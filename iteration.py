@@ -13,10 +13,15 @@ def iterate(list):
 	for item in list:
 		print item
 
+def add_one(list):
+	for i in range(0, len(list)):
+		list[i] += 1
+
 def print_scores(names, scores):
 	for i in range(0, len(names)):
 		print names[i] , " scored " , scores[i]
 
+	return list
 
 # filter pattern
 def congratulations(names, scores):

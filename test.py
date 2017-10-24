@@ -10,6 +10,8 @@ iterate(scores)
 
 names = ["Amy", "Bill", "Carol", "Dave", "Emily"]
 
+add_one(scores)
+
 iterate(names)
 
 print_scores(names, scores)
